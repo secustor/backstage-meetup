@@ -2746,6 +2746,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage/backend-defaults@npm:^0.2.9":
+  version: 0.2.9
+  resolution: "@backstage/backend-defaults@npm:0.2.9"
+  dependencies:
+    "@backstage/backend-app-api": "npm:^0.5.10"
+    "@backstage/backend-common": "npm:^0.20.1"
+    "@backstage/backend-plugin-api": "npm:^0.6.9"
+  checksum: 10c0/8b6d476eee19ff2e6dd6fee8087c65bcd403eb66751bd8e6e9a77998eb5f3dae6e1762045dc9cf045f7a2196b06a4af222ad54022a5d0ca61f6797472876c11a
+  languageName: node
+  linkType: hard
+
 "@backstage/backend-dev-utils@npm:^0.1.3":
   version: 0.1.3
   resolution: "@backstage/backend-dev-utils@npm:0.1.3"
@@ -12894,6 +12905,8 @@ __metadata:
   resolution: "backend@workspace:packages/backend"
   dependencies:
     "@backstage/backend-common": "npm:^0.20.1"
+    "@backstage/backend-defaults": "npm:^0.2.9"
+    "@backstage/backend-plugin-api": "npm:^0.6.9"
     "@backstage/backend-tasks": "npm:^0.5.14"
     "@backstage/catalog-client": "npm:^1.5.2"
     "@backstage/catalog-model": "npm:^1.4.3"
@@ -12908,6 +12921,7 @@ __metadata:
     "@backstage/plugin-permission-node": "npm:^0.7.20"
     "@backstage/plugin-proxy-backend": "npm:^0.4.7"
     "@backstage/plugin-scaffolder-backend": "npm:^1.20.0"
+    "@backstage/plugin-scaffolder-node": "npm:^0.2.10"
     "@backstage/plugin-search-backend": "npm:^1.4.9"
     "@backstage/plugin-search-backend-module-catalog": "npm:^0.1.13"
     "@backstage/plugin-search-backend-module-pg": "npm:^0.5.18"
