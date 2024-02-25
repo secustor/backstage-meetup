@@ -41,7 +41,7 @@
     "@backstage/plugin-search-backend-node": "1.2.13",
     "@backstage/plugin-techdocs-backend": "1.9.2",
     "app": "link:../app",
-    "better-sqlite3": "9.4.1",
+    "better-sqlite3": "9.4.3",
     "dockerode": "3.3.5",
     "express": "4.18.2",
     "express-promise-router": "4.1.1",
