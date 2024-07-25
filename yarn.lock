@@ -11831,7 +11831,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/dockerode@npm:3.3.23, @types/dockerode@npm:^3.3.0":
+"@types/dockerode@npm:3.3.31":
+  version: 3.3.31
+  resolution: "@types/dockerode@npm:3.3.31"
+  dependencies:
+    "@types/docker-modem": "npm:*"
+    "@types/node": "npm:*"
+    "@types/ssh2": "npm:*"
+  checksum: 10c0/e0b85edcb7065c24d6d8140b90ea3be128451d4ef25d44fe07ef653e931f3ff4ce86ba0fbb0d7037f51296eb5055d17d8d3ac373028c9e13861b3baf249578d8
+  languageName: node
+  linkType: hard
+
+"@types/dockerode@npm:^3.3.0":
   version: 3.3.23
   resolution: "@types/dockerode@npm:3.3.23"
   dependencies:
@@ -14132,7 +14143,7 @@ __metadata:
     "@backstage/plugin-search-backend-module-techdocs": "npm:0.1.13"
     "@backstage/plugin-search-backend-node": "npm:1.2.13"
     "@backstage/plugin-techdocs-backend": "npm:1.9.2"
-    "@types/dockerode": "npm:3.3.23"
+    "@types/dockerode": "npm:3.3.31"
     "@types/express": "npm:4.17.21"
     "@types/express-serve-static-core": "npm:4.17.43"
     "@types/luxon": "npm:2.4.0"
